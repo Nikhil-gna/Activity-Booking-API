@@ -10,6 +10,14 @@ This project is a simple RESTful API backend for a **Activity Booking App**.
 
 ---
 
+## Postman Collection
+
+A complete Postman collection is included in the repo:
+
+> Postman Docs: [https://documenter.getpostman.com/view/23451596/2sB2j96oE7](https://documenter.getpostman.com/view/23451596/2sB2j96oE7)
+
+---
+
 ## Features
 
 - User Registration & Login (with JWT)
