@@ -17,11 +17,13 @@ app.use(cookieParser());
 
 import authRouter from "./routes/auth.routes.js";
 import activityRouter from "./routes/activity.routes.js";
+import bookingRouter from "./routes/booking.routes.js";
 
 app.get("/", (req, res) => {
   res.send("Hello World");
 });
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/activities", activityRouter);
+app.use("/api/v1/booking", bookingRouter);
 
 export { app };
